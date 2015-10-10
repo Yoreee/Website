@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Riaz Bacchus</title>
+<link rel="stylesheet" href="./parallax.css">
+<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <div class="debug">
+    <label><input type="checkbox"> Debug</label>
+  </div>
+
+  <div class="parallax">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="layer-label">
+			     <div class="one"><span class="name">Riaz Bacchus</span></br><span class='description'>Full-Stack Web Developer & Designer</span></div>
+        </div>
+      </div>
+    </div>
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <!-- <div class="layer-label">Base Layer</div> -->
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <!-- <div class="layer-label">Background Layer</div> -->
+      </div>
+    </div>
+    <div id="group3" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <!-- foreground layer -->
+        <div class="layer-label about-content">I am a web developer with a background in biology. I want to help make the web a great place to collaborate and learn. I enjoy working with backend languages and solving problems. Some of my hobbies include cycling, snowboarding, and botany.</div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <!-- base layer -->
+        <div class="layer-label about-title">About me</div>
+      </div>
+    </div>
+    <div id="group4" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <!-- <div class="layer-label">Base Layer</div> -->
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <!-- <div class="layer-label">Background Layer</div> -->
+      </div>
+      <div class="parallax__layer parallax__layer--deep">
+        <!-- <div class="layer-label">Deep Background Layer</div> -->
+      </div>
+    </div>
+    <div id="group5" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="layer-label">Foreground Layer</div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <div class="layer-label work-title">Work</div>
+      </div>
+    </div>
+    <div id="group6" class="parallax__group">
+      <div class="parallax__layer parallax__layer--back">
+        <!-- <div class="layer-label">Background Layer</div> -->
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <!-- <div class="layer-label">Base Layer</div> -->
+      </div>
+    </div>
+    <div id="group7" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="layer-label contact contact-title">Contact 
+         
+        </div>
+          <a href="https://github.com/Yoreee">GitHub</a>,
+          <a href="https://www.linkedin.com/in/riazbacchus">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var debugInput = document.querySelector("input");
+    function updateDebugState() {
+        document.body.classList.toggle('debug-on', debugInput.checked);
+    }
+    debugInput.addEventListener("click", updateDebugState);
+    updateDebugState();
+  </script>
+
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-10812217-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
